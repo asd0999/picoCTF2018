@@ -1,0 +1,30 @@
+nc 2018shell.picoctf.com 6903
+
+echo 'Help Me!'
+
+ls
+
+cd secret
+
+rm intel*
+
+echo 'Drop it in!'
+
+cd ../executables
+
+ls
+./dontLookHere
+
+whoami
+
+cd ..
+
+cp /tmp/TopSecret passwords
+
+cd passwords
+
+ls
+
+cat TopSecret
+
+#and boom!

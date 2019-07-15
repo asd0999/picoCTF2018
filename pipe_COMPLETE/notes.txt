@@ -1,0 +1,7 @@
+nc 2018shell.picoctf.com 2015
+
+#search for flag by grepping the output for the flag
+
+2018shell.picoctf.com 2015 | grep -oE picoCTF{.*}
+
+#optional make a shell script to do this

@@ -1,0 +1,6 @@
+nc 2018shell.picoctf.com 63299
+
+#and answer questions to retrieve flag
+#last question is confusing
+#this github repo helped me understand what the last question needs
+#https://github.com/mzfr/ctf-writeups/tree/master/picoCTF-2018/Forensics/Desrouleaux%20

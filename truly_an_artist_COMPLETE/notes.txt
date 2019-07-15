@@ -1,0 +1,12 @@
+#wget the file
+
+brew install exiftool 
+#exiftool is a meta data viewing command line tool
+
+exiftool 2018.png
+
+#you'll see the flag in artist:
+
+#alternatively, you can also run strings on the file and grep for the flag
+
+#i've made a script using exiftool

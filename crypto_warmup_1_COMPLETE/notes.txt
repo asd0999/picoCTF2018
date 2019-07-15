@@ -1,0 +1,18 @@
+#show table on cli (shorter method)
+curl "https://2018shell.picoctf.com/static/43f28853477d7b2ed52e0efbfb04dff7/table.txt" --insecure
+
+#download the table and then show
+wget "https://2018shell.picoctf.com/static/43f28853477d7b2ed52e0efbfb04dff7/table.txt" --no-check-certificate
+cat table.txt
+
+#flag - did using this online vignere decoder
+#https://cryptii.com/pipes/vigenere-cipher
+
+#key is up top (horizontal)
+#message in the vertical one
+#check the left column for the SECRETMESSAGE
+
+
+
+
+

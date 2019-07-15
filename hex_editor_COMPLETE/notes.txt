@@ -1,0 +1,24 @@
+#wget cat file
+
+#google online hex editor and upload the image into it
+#search for flag
+# i used https://www.onlinehexeditor.com/
+
+
+
+
+#alternatively, use hexedit through the command line
+
+brew install hexedit 
+
+hexedit hex_editor.jpg
+#or xxd hex_editor.jpg
+
+#flag is at the end so kep scrolling!
+
+
+
+
+#alternatively, you can also just simply do this
+strings hex_editor.jpg | grep -oE "picoCTF{.*}"
+

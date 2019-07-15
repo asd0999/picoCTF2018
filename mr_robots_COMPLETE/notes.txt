@@ -1,0 +1,12 @@
+#go to link
+
+#the title is a reference to robots.txt
+#google robots.txt or go to www.robotstxt.org
+
+#a lot of websites have a robots.txt file to prevent webcrawlers to scrape data from them
+#go to link/robots.txt
+
+#you will see a link (ex. c4075.html) there which is being disallowed but its a plain text file
+#copy and paste at the end of the link and voila!
+
+ex. http://2018shell.picoctf.com:15298/c4075.html

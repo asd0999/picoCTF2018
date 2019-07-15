@@ -1,0 +1,8 @@
+wget "https://2018shell.picoctf.com/static/032d65124629e45f0b5151aad4e7b5b1/flag.png" --no-check-certificate
+
+file flag.png
+
+#file format is jpg not png
+#change file extension to .jpg
+
+open flag.jpg

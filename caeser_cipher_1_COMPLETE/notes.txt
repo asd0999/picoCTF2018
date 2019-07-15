@@ -1,0 +1,12 @@
+#wget ciphertext
+
+file ciphertext
+
+cat ciphertext 
+
+#tip to get the cipher part only from the ciphertext
+cat ciphertxt | cut -d "{" -f2 | cut -d "}" -f1
+
+#use online caesar cipher decoder, try all 25 shifts
+#i used https://www.dcode.fr/caesar-cipher
+#this is a caesar 6 cipher 

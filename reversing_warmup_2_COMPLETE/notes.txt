@@ -1,0 +1,6 @@
+echo "dGg0dF93NHNfczFtcEwz" | base64 -D
+
+#-D for decode
+
+#python way to do it is in get_flag.py
+

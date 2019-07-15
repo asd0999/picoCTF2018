@@ -1,0 +1,15 @@
+#go to link
+
+#click on edit this cookie chrome extension
+#create a new cookie
+# name = admin
+# value = True
+
+#refresh and there you go!
+
+#alternatively, you can writ e script to do this for you
+#i have made scipts using both bash and python3
+
+#for python3 script enter the following from the comand line:
+
+python get_flag.py > flag.txt

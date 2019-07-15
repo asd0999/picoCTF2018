@@ -1,0 +1,10 @@
+#go to link
+
+#write any user 
+#password try any sql query that returns to true like 
+' OR 1=1;#
+
+#and voila, flag!!!
+
+#i tried a few times with username as the sql query and a random string in the password and it didnt work
+#lesson learnt! 

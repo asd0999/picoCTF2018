@@ -1,0 +1,11 @@
+#when we call asm0(0x2a,0x4f)
+#it sets eax to 0x2a and ebx to 0x4f (lines 9 and 10)
+
+#line 11 sets eax equal to ebx
+#so eax = ebx = 0x4f
+
+#so what the function returns is eax ie 0x4f
+
+
+
+

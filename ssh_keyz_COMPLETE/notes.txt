@@ -1,0 +1,36 @@
+ssh-keygen
+
+#select default dir
+
+#for passphrase, you can choose to enter passphrase or not
+#passphrase is sed to encrypt your private rsa key on disc
+
+#this will create/add to .ssh folder on your system the public private key pair 
+#id_rsa is the private key and id_rsa.pub is the public key
+
+cat ~/.ssh/id_rsa.pub
+
+#copy the text, all of it
+
+#login to pico shell
+
+mkdir .ssh
+
+cd .ssh/
+
+nano authorized_keys
+
+#paste the id_rsa.pub content here
+
+#exit by pressing ctrl+X, y, enter
+
+#now from your computer command line ssh into the pico shell
+
+ssh -i ~/.ssh/id_rsa username@2018shell4.picoctf.com
+
+#i for identification_file which points the shell to the correct file for checking your private key 
+
+#you will either be logged in without requiring any password 
+#or you will be prompted for the passphrase if you entered one above during keygen
+
+#the flag will be displayed right away!

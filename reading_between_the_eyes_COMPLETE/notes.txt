@@ -1,0 +1,2 @@
+#simply used this onlin decoder as the hint suggested
+#https://stylesuxx.github.io/steganography/#

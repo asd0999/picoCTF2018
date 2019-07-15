@@ -1,0 +1,10 @@
+#go to link and open elements in dev tools (cmd+option+i)
+#construct the flag and log in with it
+
+#optional - write a script
+#the script you see in the get_flag.sh works on mac osx
+#easier way to do this is as follows:
+
+curl -s "http://2018shell.picoctf.com:8249/" | head -n 20 | cut -d "'" -f2 | tail -n 8 | tac | tr -d "\n"
+
+#but this wont run on osx because tac is a linux command

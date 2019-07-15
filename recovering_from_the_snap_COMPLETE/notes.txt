@@ -1,0 +1,13 @@
+#wget animals.dd
+
+brew install foremost
+
+foremost animals.dd
+
+cd output
+
+cd jpg
+
+eog *
+
+flag!!!

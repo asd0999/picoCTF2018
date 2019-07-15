@@ -1,0 +1,14 @@
+curl -s "https://picoctf.com/resources" | grep -oE "picoCTF{.*}" --color=none
+
+#-s for silent as in dont show me the curl connection info
+#-o for only as in only return search results
+#-E for expressions so i can use regular expressions like *
+#--color=none to change color of grep result to default
+
+#create shell script get_flag.sh
+#put the above command in it
+
+#make it executable
+chmod +x get_flag.sh
+
+./get_flag.sh

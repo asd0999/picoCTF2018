@@ -1,0 +1,7 @@
+#go to website and logon using any credentials
+#get editthiscookie chrome extension and change the admin part of the websites cookie to True
+#hit refresh and voila!
+
+#optional - write a sciot to retrieve flag
+#go to network tab on dev tools and copy the flag script as curl
+#add grep to it to search for and return flag

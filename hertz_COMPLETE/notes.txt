@@ -1,0 +1,8 @@
+nc 2018shell.picoctf.com 18581
+
+#if you want to save it somewhere
+nc 2018shell.picoctf.com 18581 > ciphertext.txt
+
+
+#use quipquip.com to solve substitution ciphers
+#paste text in and click solve to retrieve the flag!

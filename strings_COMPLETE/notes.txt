@@ -1,0 +1,10 @@
+#strinsg returns all strings in a file
+
+strings strings
+
+#but you wanna grep the flag only
+
+strings strings | grep -oE picoCTF{.*}
+
+#make an eecutable bash script for it and use chmod +x <filename> to make it executable 
+#run it by ./<filename> 

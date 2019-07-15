@@ -1,0 +1,4 @@
+nc 2018shell.picoctf.com 37721 | tail -n 1
+
+#-n for number of line
+#1 for the last line or first line from the bottom

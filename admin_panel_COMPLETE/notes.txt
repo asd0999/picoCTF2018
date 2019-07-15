@@ -1,0 +1,11 @@
+#wget data.pcap
+
+wireshark data.pcap
+
+go through and look for a packet with "login"
+
+follow and open TCP stream to retrieve flag
+
+#second method 
+strings data.pcap | grep -oE "picoCTF{.*}"
+#because data.pcap is just text data with strings and characters

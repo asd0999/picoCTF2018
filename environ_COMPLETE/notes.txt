@@ -1,0 +1,7 @@
+#login to pico shell
+
+#use env or printenv to display all environment variables on the shell
+
+env
+
+#scroll to find flag!

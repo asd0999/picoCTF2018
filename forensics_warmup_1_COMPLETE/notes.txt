@@ -1,0 +1,5 @@
+wget "https://2018shell.picoctf.com/static/d6487f8e2cbbb28b5168b512f0ac0710/flag.zip" --no-check-certificate
+
+unzip flag.zip
+
+open flag.jpg

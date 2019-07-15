@@ -1,0 +1,9 @@
+#wget file
+#to check program for asm1(0xc8)
+
+#go to python shell to try the conditions in the assembly program
+
+#refer the eq_asm.rev.S file, it has some comments i've written to explain things 
+#open it in an editor like atom with the assembly package installed to see color code/format
+
+#refer screenshot (for python shell working)

@@ -1,0 +1,9 @@
+#go the the shell and login using your picoCTF credentials
+
+cd /problems/grep-2_1_ef31faa711ad74321a7467978cb0ef3a/files
+
+ls 
+
+ls -R
+
+grep -R -oE picoCTF{.*}
