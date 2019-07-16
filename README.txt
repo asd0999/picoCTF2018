@@ -1,3 +1,5 @@
+#https://2018game.picoctf.com/problems
+
 #all challenges have been names with an _ instead of space
 
 #in some challenges i have made scripts to retrieve the flag
